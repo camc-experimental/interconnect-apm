@@ -5,7 +5,8 @@ export IGNORE_PRECHECK_WARNING=1
 export NOT_REQ_CHECK_ID=1
 export IGNORE_PRECHECK=1
 
-curl https://raw.githubusercontent.com/camc-experimental/interconnect-apm/master/apm_demo.tar.gz
+#need to pull this from some sort of file server, git limit is 100M
+#curl https://raw.githubusercontent.com/camc-experimental/interconnect-apm/master/apm_demo.tar.gz
 
 if [ $? -ne 0 ]
 then
